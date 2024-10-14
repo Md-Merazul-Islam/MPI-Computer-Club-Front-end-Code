@@ -105,7 +105,7 @@ const Navbar = () => {
                 className="nav-box hover:bg-gray-200 p-2 rounded cursor-pointer flex items-center"
                 onClick={toggleDropdown} // Toggle on click
               >
-                Academics <FaCaretDown className="ml-2" />
+                All Members <FaCaretDown className="ml-2" />
               </div>
 
               {/* Dropdown Menu */}
@@ -118,13 +118,13 @@ const Navbar = () => {
                     to="/teachers"
                     className="block px-7 py-2 hover:bg-gray-200"
                   >
-                    Teachers
+                    Leaders
                   </Link>
                   <Link
                     to="/students"
                     className="block px-7 py-2 hover:bg-gray-200"
                   >
-                    Students
+                    Members
                   </Link>
                 </div>
               )}
@@ -177,7 +177,7 @@ const Navbar = () => {
                   >
                     My Profile
                   </Link>
-                  <Link
+                  {/* <Link
                     to="/activities"
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
                   >
@@ -188,7 +188,7 @@ const Navbar = () => {
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
                   >
                     Result
-                  </Link>
+                  </Link> */}
                 </div>
               )}
             </div>
@@ -313,7 +313,7 @@ const Navbar = () => {
               >
                 Profile
               </Link>
-              <Link
+              {/* <Link
                 to="/activities"
                 className="nav-box hover:bg-gray-200 p-2 rounded"
                 onClick={() => setIsMobileMenuOpen(false)}
@@ -326,7 +326,7 @@ const Navbar = () => {
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Result
-              </Link>
+              </Link> */}
               <button
                 onClick={handleLogout}
                 className="bg-gray-800 hover:bg-gray-700 text-white px-4 py-2 rounded text-center"

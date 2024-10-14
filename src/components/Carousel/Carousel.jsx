@@ -68,7 +68,7 @@ const Carousel = () => {
                   />
                 </div> */}
 
-          <div className="carousel-img custom-padding flex justify-center items-center md:w-80 lg:w-[676px]" data-aos="fade-up" data-aos-delay="400">
+          <div className="carousel-img custom-padding flex justify-center items-center md:w-80 lg:w-[676px]"  data-aos-delay="400">
             <Lottie options={AnimationOptions} className="h-auto w-auto rounded-lg" />
           </div>
               </div>

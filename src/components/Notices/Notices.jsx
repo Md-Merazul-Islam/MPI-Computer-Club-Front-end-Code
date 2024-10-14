@@ -84,44 +84,45 @@ const Notices = () => {
         <Spinner />
       ) : (
         <div className="flex flex-wrap justify-center gap-8">
-          {notices.map((notice) => (
-            <div
-              key={notice.id}
-              className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 p-6 bg-white rounded-lg shadow-lg transform transition-all duration-500 hover:scale-105 hover:shadow-2xl"
-              data-aos="fade-up"
-            >
-              <h2 className="text-2xl font-semibold mb-3 text-center text-indigo-800">
-                {notice.title}
-              </h2>
-              <p className="text-gray-700 mb-4 text-center">{notice.description}</p>
-  
-              {/* Check if the file is an image */}
-              {notice.file ? (
-                isImageFile(notice.file) ? (
-                  <img
-                    src={notice.file}
-                    alt={notice.title}
-                    className="w-full h-64 object-cover rounded-lg mb-4 cursor-pointer hover:opacity-90 transition-opacity duration-300"
-                    onClick={() => openFullScreen(notice.file)}
-                    data-aos="zoom-in"
-                  />
-                ) : (
-                  <a
-                    href={notice.file}
-                    className="block text-center bg-blue-600 text-white px-4 py-2 rounded-lg mt-2 hover:bg-blue-700 transition-colors duration-300"
-                    download
-                  >
-                    Download File
-                  </a>
-                )
-              ) : null}
-  
-              <p className="text-sm text-gray-500 text-center">
-                Posted on: {formatDateTime(notice.created_at)}
-              </p>
-            </div>
-          ))}
-        </div>
+  {notices.map((notice) => (
+    <div
+      key={notice.id}
+      className="w-full  md:w-1/3 lg:w-2/4 max-w-[700px] p-6 bg-white rounded-lg shadow-lg transform transition-all duration-500 hover:scale-105 hover:shadow-2xl"
+      data-aos="fade-up"
+    >
+      <h2 className="text-2xl font-semibold mb-3 text-center text-indigo-800">
+        {notice.title}
+      </h2>
+      <p className="text-gray-700 mb-4 text-center">{notice.description}</p>
+
+      {/* Check if the file is an image */}
+      {notice.file ? (
+        isImageFile(notice.file) ? (
+          <img
+            src={notice.file}
+            alt={notice.title}
+            className="w-full h-64 object-cover rounded-lg mb-4 cursor-pointer hover:opacity-90 transition-opacity duration-300"
+            onClick={() => openFullScreen(notice.file)}
+            data-aos="zoom-in"
+          />
+        ) : (
+          <a
+            href={notice.file}
+            className="block text-center bg-blue-600 text-white px-4 py-2 rounded-lg mt-2 hover:bg-blue-700 transition-colors duration-300"
+            download
+          >
+            Download File
+          </a>
+        )
+      ) : null}
+
+      <p className="text-sm text-gray-500 text-center">
+        Posted on: {formatDateTime(notice.created_at)}
+      </p>
+    </div>
+  ))}
+</div>
+
       )}
     </div>
   

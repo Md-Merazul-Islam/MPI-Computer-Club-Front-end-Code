@@ -172,7 +172,7 @@ const TestimonialCarousel = () => {
                          
                         </p>
                         <p className="mt-0.5 text-sm font-pj text-gray-600">
-                          {review.position || "Student"}{" "}
+                          {review.position || "Member"}{" "}
                           
                         </p>
                       </div>
