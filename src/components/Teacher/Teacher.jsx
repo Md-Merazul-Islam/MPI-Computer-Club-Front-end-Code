@@ -99,16 +99,15 @@ const Teacher = () => {
             style={{ maxWidth: "800px" }}
             data-aos="fade-up"
           >
-            <h4 className="text-blue-500">Meet Our Teachers</h4>
-            <h1 className="text-5xl mb-4">
-              Inspiring and Guiding the Next Generation
-            </h1>
-            <p className="mb-0 mx-1">
-              Our dedicated teachers are the cornerstone of our educational
-              mission, fostering a nurturing and stimulating environment where
-              students can excel. Learn more about the passionate educators who
-              are committed to your academic and personal growth.
-            </p>
+           <h4 className="text-blue-500">Meet Our Club Leaders</h4>
+        <h1 className="text-5xl mb-4">
+          Leading the Way with Passion and Dedication
+        </h1>
+        <p className="mb-0 mx-1">
+          Our club leaders are dedicated to creating an environment where
+          members can thrive. Meet the passionate individuals who make a
+          difference in our community.
+        </p>
           </div>
 
           {loading ? ( 
@@ -164,7 +163,7 @@ const Teacher = () => {
                     </li>
                   ))
                 ) : (
-                  <p>No teachers available at the moment.</p>
+                  <p>No club leaders available at the moment.</p>
                 )}
               </ul>
             </div>

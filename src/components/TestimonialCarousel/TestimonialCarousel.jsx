@@ -101,17 +101,18 @@ const TestimonialCarousel = () => {
   <div>
       <section className="py-12 bg-gray-50 mx-w-[1536px] sm:py-16 lg:py-20">
       <div className="px-4 mx-auto sm:px-6 lg:px-8">
-        <div className="flex flex-col items-center">
-          <div className="text-center">
-            <p className="text-lg font-medium text-gray-600 font-pj">
-              {reviews.length} people have said how good Rareblocks
-            </p>
-            <h2 className="mt-4 text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl font-pj">
-              What Our Students Say
-            </h2>
-          </div>
+      <div className="flex flex-col items-center">
+        <div className="text-center">
+          <p className="text-lg font-medium text-gray-600 font-pj">
+            {reviews.length} members have shared their experiences with our club
+          </p>
+          <h2 className="mt-4 text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl font-pj">
+            What Our Club Members Say
+          </h2>
         </div>
       </div>
+    </div>
+
 
       {/* slider start  */}
       <div className="relative mt-10 md:mt-24 md:order-2 z-20">
