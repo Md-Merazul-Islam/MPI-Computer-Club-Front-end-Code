@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
+import Lottie from 'react-lottie';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './Carousel.css'
+import animation from './animation1.json'
 
 const Carousel = () => {
 
@@ -13,6 +15,16 @@ const Carousel = () => {
     });
   }, []);
 
+  const AnimationOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animation,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice',
+    },
+  };
+
+
   return (
     <div>
       {/* Landing Page Header Section */}
@@ -23,10 +35,10 @@ const Carousel = () => {
               {/* Text Content Section */}
               <div data-aos="fade-right" className="w-full lg:w-7/12 text-center md:text-left ">
                 <h4 className="text-white uppercase font-bold mb-4">
-                  Welcome to Our CST
+                  Welcome to Our 
                 </h4>
-                <h1 className="text-white text-6xl md:text-7xl lg:text-8xl mb-4">
-                  Empowering Future Leaders
+                <h1 className="text-white text-6xl md:text-xl lg:text-6xl mb-4">
+                MYMENSINGH POLYTECHNIC INSTITUTE IT CLUB
                 </h1>
                 <p className="mb-5 text-lg text-white max-w-[819px]">
                   At CST, we are dedicated to fostering academic excellence and innovation. Join a diverse community of scholars and experience world-class education.
@@ -48,13 +60,17 @@ const Carousel = () => {
               </div>
               {/* Image Section */}
               <div data-aos="fade-left" className="w-full lg:w-5/12 mt-8 lg:mt-0">
-                <div className="carousel-img">
+                {/* <div className="carousel-img">
                   <img
                     src="/images/carousel-2.png"
                     className="w-full h-full object-cover"
                     alt="University Campus"
                   />
-                </div>
+                </div> */}
+
+          <div className="carousel-img custom-padding flex justify-center items-center md:w-80 lg:w-[676px]" data-aos="fade-up" data-aos-delay="400">
+            <Lottie options={AnimationOptions} className="h-auto w-auto rounded-lg" />
+          </div>
               </div>
             </div>
           </div>

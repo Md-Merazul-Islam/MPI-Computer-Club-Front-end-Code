@@ -16,18 +16,19 @@ const Contact = () => {
   return (
     <div>
       <section className="py-24 z-10 relative overflow-hidden">
-        <div
+      <div
           className="text-center mx-auto pb-12"
-          style={{ maxWidth: '800px' }}
+          style={{ maxWidth: "800px" }}
           data-aos="fade-up"
         >
           <h4 className="text-blue-500">Get in Touch</h4>
           <h1 className="text-5xl mb-4">We're Here to Help</h1>
           <p className="mb-0 mx-1">
-            Whether you have questions about our programs, admissions, or anything else, we're here to assist you. Please fill out the form below, and our team will get back to you shortly.
+            Whether you have questions about our programs, admissions, or
+            anything else, we're here to assist you. Please fill out the form
+            below, and our team will get back to you shortly.
           </p>
         </div>
-
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 lg:gap-8">
             <div className="lg:mb-0 mb-10" data-aos="fade-right">
@@ -46,19 +47,19 @@ const Contact = () => {
                       <a href="javascript:;" className="flex items-center mb-6">
                         {/* SVG icon here */}
                         <h5 className="text-black text-base font-normal leading-6 ml-5">
-                          +8801653135353
+                          +8801952881353, +8801401734625
                         </h5>
                       </a>
                       <a href="javascript:;" className="flex items-center mb-6">
                         {/* SVG icon here */}
                         <h5 className="text-black text-base font-normal leading-6 ml-5">
-                          cst.tech@gmail.com
+                          mpicstclub.tech@gmail.com
                         </h5>
                       </a>
                       <a href="javascript:;" className="flex items-center">
                         {/* SVG icon here */}
                         <h5 className="text-black text-base font-normal leading-6 ml-5">
-                          Gazipur, Dhaka, Bangladesh
+                        Mymensingh Sadar , Mymensingh
                         </h5>
                       </a>
                     </div>
