@@ -3,10 +3,15 @@
 
 ## Backend:
 Django REST API: For building the backend services.
+
 PostgreSQL: Reliable and scalable database management.
+
 Coros Check: For performance and security checks.
+
+
 ## Frontend:
 React: Dynamic and interactive user interfaces.
+
 JS, HTML, CSS, Tailwind CSS: For modern, responsive design and styling.
 ### 📈 Additional Features:
 
