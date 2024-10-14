@@ -98,8 +98,8 @@ const Signup = () => {
         <div className="m-0 sm:m-10 sm:rounded-lg flex justify-center flex-1">
           <div className="lg:w-1/2 xl:w-5/12 p-6 sm:p-12">
             <div>
-            <h1 className="text-2xl xl:text-3xl font-extrabold text-center">Login Your Account</h1>
-            <div className="w-full flex-1 mt-8">
+            <h1 className="text-2xl xl:text-3xl font-extrabold text-center">Singup Your Account</h1>
+            {/* <div className="w-full flex-1 mt-8">
               <div className="flex flex-col items-center">
                 <button className="w-full max-w-xs font-bold shadow-sm rounded-lg py-3 bg-indigo-100 text-gray-800 flex items-center justify-center transition-all duration-300 ease-in-out focus:outline-none hover:shadow focus:shadow-sm focus:shadow-outline">
                   <div className="bg-white p-2 rounded-full">
@@ -143,11 +143,12 @@ const Signup = () => {
                   Or Login up with e-mail
                 </div>
               </div>
-              </div>
+              </div> */}
               
             </div>
             <div className="mt-12 flex flex-col items-center">
-              <h1 className="text-2xl xl:text-3xl font-extrabold">Sign Up</h1>
+              {/* <h1 className="text-2xl xl:text-3xl font-extrabold">Sign Up</h1> */}
+              <span className="ml-4">Create a new account</span>
               <div className="w-full flex-1 mt-8">
               {errorMessage && (
                     <p className="text-red-500 my-4 text-center">{errorMessage}</p>
