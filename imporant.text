@@ -1,0 +1,67 @@
+
+
+
+Main APi : https://mpi-computer-club-backend.vercel.app
+
+https://mpi-computer-club-backend.vercel.app/accounts/
+https://mpi-computer-club-backend.vercel.app/accounts/register/
+https://mpi-computer-club-backend.vercel.app/accounts/login/
+https://mpi-computer-club-backend.vercel.app/accounts/logout/
+
+{
+    "message": "successfully login.\n",
+    "token": "6c0279bf8e3cc78ba9dc14b9460481377ed18e46",
+    "user_id": 24,
+    "is_staff": true
+}
+
+{
+    "users": "https://mpi-computer-club-backend.vercel.app/accounts/users/",
+    "profiles": "https://mpi-computer-club-backend.vercel.app/accounts/profiles/"
+}
+
+https://mpi-computer-club-backend.vercel.app/academics/
+
+
+
+
+ add:   "students": "https://mpi-computer-club-backend.vercel.app/academics/students/",
+
+ add:   "students": "https://mpi-computer-club-backend.vercel.app/academics/teachers/",
+{
+
+    "students": "https://mpi-computer-club-backend.vercel.app/academics/students-list/",
+    "teachers": "https://mpi-computer-club-backend.vercel.app/academics/teachers-list/",
+    "classes": "https://mpi-computer-club-backend.vercel.app/academics/classes/",
+    "subjects": "https://mpi-computer-club-backend.vercel.app/academics/subjects/"
+    "notices": "https://mpi-computer-club-backend.vercel.app/academics/notices/"
+}
+
+
+https://mpi-computer-club-backend.vercel.app/classes/
+
+
+{
+    "attendance": " ",
+    "marks": "https://mpi-computer-club-backend.vercel.app/classes/marks/"
+}
+
+Attendance List Create for post - https://mpi-computer-club-backend.vercel.app/classes/attendance-check/
+
+
+
+academics/notices/
+
+
+
+Super use : 
+username : Admin
+password : meraz2004
+
+
+Staff user pass : 
+usename : clubadmin
+email : mdmerazul865@gmail.com
+password : clubadmin1935@@
+
+

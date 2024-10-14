@@ -1,0 +1,70 @@
+.navbar {
+    /* position: fixed;  */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+  }
+  .navbar {
+    z-index: 1000; /* Adjust the value as needed */
+    position: relative;
+  }
+  
+  /* Ensure the mobile menu is on top of other content */
+  #mobile-menu {
+    z-index: 1001; /* Slightly higher than the navbar */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  .nav-box{
+    position: relative;
+    display: inline-block;
+    color: #000; /* Text color */
+    text-decoration: none;
+    padding: 0.5rem 0; /* Vertical padding for spacing */
+  }
+  
+  .nav-box::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 100%;
+    height: 2px; 
+    background-color: #000; 
+    transform: translateX(-50%) scaleX(0); 
+    transform-origin: center; 
+    transition: transform 0.3s ease; 
+  }
+  
+  .nav-box:hover::after {
+    transform: translateX(-50%) scaleX(1); 
+  }
+
+  
+  .absolute {
+    z-index: 50; /* or any sufficiently high number */
+  }
+
+
+
+  /* Ensure the dropdown is hidden by default */
+.nav-box + .group-hover .absolute {
+  display: none;
+}
+
+.group:hover .absolute {
+  display: block;
+}
+
+/* Align the dropdown menu properly */
+.group .absolute {
+  min-width: 200px;
+  z-index: 1000;
+}

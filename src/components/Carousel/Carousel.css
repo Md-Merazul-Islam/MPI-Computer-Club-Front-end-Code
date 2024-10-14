@@ -1,0 +1,15 @@
+body {
+    overflow-x: hidden;
+  }
+  
+
+  .carousel-img img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .container{
+      margin-top: 42px;
+    }
+  }
