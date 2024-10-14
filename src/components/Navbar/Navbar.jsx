@@ -84,7 +84,7 @@ const Navbar = () => {
             alt="Logo"
             className="w-12 h-12 rounded-full"
           />
-          <span className="text-2xl font-bold">CST</span>
+          <span className="text-2xl font-bold">MPI CST CLUB</span>
         </div>
 
         {/* Desktop Menu */}
